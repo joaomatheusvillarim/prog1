@@ -1,2 +1,7 @@
+#UFCG - P1
+#João Matheus Pinto Villarim Coutinho de Almeida
+#Pintor
+
 altura, largura = float(input()), float(input())
-print("R$ {:.2f}".format(largura*altura*20))
+valor = altura*largura*20
+print(f"R$ {valor:.2f}")
